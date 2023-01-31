@@ -19,7 +19,7 @@ module.exports = {
   // Path and filename of your result bundle.
   // Webpack will bundle all JavaScript into this file
   output: {
-    filename: '[name].js',
+    filename: 'js/[name].js',
     path: path.resolve('app/client/dist'),
     clean: true,
   },
@@ -72,7 +72,7 @@ module.exports = {
   plugins: [
     // Resulting css file
     new MiniCssExtractPlugin({
-      filename: "[name].css"
+      filename: "css/[name].css"
     })
   ],
 

@@ -26,6 +26,9 @@
             ".htaccess",
             "index.php",
             "web.config"
+        ],
+        "expose": [
+            "app/client/dist"
         ]
     },
     "config": {

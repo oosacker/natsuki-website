@@ -13,11 +13,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   $MetaTags(false)
+  <% require css('app/client/dist/css/main.css') %>
   <!--[if lt IE 9]>
   <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 </head>
 <body>
   $Layout
+
+  <% require javascript('app/client/dist/js/main.js') %>
 </body>
 </html>
